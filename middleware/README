@@ -7,10 +7,10 @@ a custom HTTP header.
 Task
 ----
 
-Write a HTTP handler function that takes a request, gets an upstream response,
-computes a checksum, adds the checksum as an HTTP header, and sends the
-response. The checksum is the SHA1 hash (hex encoded string) of a "canonical
-response".
+Write a HTTP handler function that conforms to Go HTTP middleware conventions,
+gets the response from the next handler in the chain, computes a checksum, adds
+the checksum as an HTTP header, and sends the response. The checksum is the SHA1
+hash (hex encoded string) of a "canonical response".
 
 A canonical response constructed as follows (in pseudo-code):
 
@@ -26,8 +26,9 @@ recreate the canonical response. (HTTP proxies between here and there may add
 arbitrary headers.)
 
 Your answer must be the hex-encoded SHA1 hash of the HTTP response in
-`middleware_test.go`, as well as your source code, which should go in the place
-indicated in `middleware.go`. You must write Go code for this answer.
+`middleware_test.go` (the function that writes "We the people ..." to the body),
+as well as your source code, which should go in the place indicated in
+`middleware.go`. You must write Go code for this answer.
 
     Answer: <SHA1 hash goes here>
 
