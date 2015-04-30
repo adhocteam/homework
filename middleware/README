@@ -1,45 +1,4 @@
-Write a checksum middleware
-===========================
+There are 4 programming problems here. The README in each directory should give
+you all the information you need to go on.
 
-You have been asked to add a checksum to all outgoing HTTP responses, as
-a custom HTTP header.
-
-Task
-----
-
-Write a HTTP handler function that conforms to Go HTTP middleware conventions,
-gets the response from the next handler in the chain, computes a checksum, adds
-the checksum as an HTTP header, and sends the response. The checksum is the SHA1
-hash (hex encoded string) of a "canonical response".
-
-A canonical response constructed as follows (in pseudo-code):
-
-     stringified http status code + "\r\n" +
-     <for each lexographically sorted (by name) http header>:
-         header name + ": " + header value + "\r\n" +
-     "X-Checksum-Headers: " + name[0] + ";" + name[1] + ";" + ... + ";" + name[n] + "\r\n\r\n" +
-     body
-
-X-Checksum-Headers is a list of the HTTP header names that were encountered in
-the original response, so that a downstream client can deterministically
-recreate the canonical response. (HTTP proxies between here and there may add
-arbitrary headers.)
-
-Your answer must be the hex-encoded SHA1 hash of the HTTP response in
-`middleware_test.go` (the function that writes "We the people ..." to the body),
-as well as your source code, which should go in the place indicated in
-`middleware.go`. You must write Go code for this answer.
-
-    Answer: <SHA1 hash goes here>
-
-Notes
------
-
-Take care to get the right concatenation of status, headers, and body -- that's
-a CRLF, or "\r" and "\n", between each component, and 2 of them between the last
-header and the body.
-
-If you are unfamiliar with writing middlewares in Go, read these blog posts:
-
-* http://www.alexedwards.net/blog/making-and-using-middleware
-* https://justinas.org/writing-http-middleware-in-go/
+Email paul@adhocteam.us when you've solved them.
