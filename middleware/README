@@ -9,9 +9,9 @@ Task
 
 Write a HTTP handler function, which conforms to Go HTTP middleware conventions,
 that wraps an HTTP response and modifies it to add the checksum.  It should get
-the response from the HTTP handler it wraps, computes a checksum, adds the
-checksum as an HTTP header, and sends the response. The checksum is the SHA1
-hash (hex encoded string) of a "canonical response".
+the response from the HTTP handler it wraps, compute a checksum, add the
+checksum as an HTTP header called `X-Checksum`, and send the response.
+The checksum is the SHA1 hash (hex encoded string) of a "canonical response".
 
 A canonical response constructed as follows (in pseudo-code):
 
@@ -31,10 +31,14 @@ Your answer must be the hex-encoded SHA1 hash of the HTTP response in
 as well as your source code, which should go in the place indicated in
 `middleware.go`. You must write Go code for this answer.
 
-    Answer: <SHA1 hash goes here>
-
 Notes
 -----
+
+There are downloads and instructions for installing go at:
+https://golang.org/doc/install . This code should work with Go version 1.3 or
+greater.
+
+To run the test, use `go test -v`.
 
 Take care to get the right concatenation of status, headers, and body -- that's
 a CRLF, or "\r" and "\n", between each component, and 2 of them between the last
