@@ -36,10 +36,10 @@ Record:
 
 Record type enum:
 
-* 0x01: Debit
-* 0x02: Credit
-* 0x03: StartAutopay
-* 0x04: EndAutopay
+* 0x00: Debit
+* 0x01: Credit
+* 0x02: StartAutopay
+* 0x03: EndAutopay
 
 For Debit and Credit record types, there is an additional field, an 8 byte
 (float64) amount in dollars, at the end of the record.
