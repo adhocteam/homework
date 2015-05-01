@@ -1,4 +1,4 @@
-plan_id,state,metal_level,amount,rate_area
+plan_id,state,metal_level,rate,rate_area
 74449NR9870320,GA,Silver,298.62,7
 26325VH2723968,FL,Silver,421.43,60
 09846WB8636633,IL,Gold,361.69,5

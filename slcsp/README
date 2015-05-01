@@ -10,11 +10,11 @@ Task
 ----
 
 You have been given a CSV file (`slcsp.csv`) containing the ZIP Codes in one
-column. Fill in the second colunn with the IDs of the corresponding SLCSP. Your
-answer is the modified CSV file, plus any source code used. (You can do this in
-the language(s) of your choice.) The order of the rows in the file must stay the
-same. If no SLCSP can be determined for a ZIP Code, leave the cell blank (no
-quotes or other text).
+column. Fill in the second column with the rate of the corresponding SLCSP.
+Your answer is the modified CSV file, plus any source code used. (You can do
+this in the language(s) of your choice.) The order of the rows in the file must
+stay the same. If no SLCSP can be determined for a ZIP Code, leave the cell
+blank (no quotes or other text).
 
 It may not be possible to determine a SLCSP for every ZIP Code given -- what
 reason or reasons are there? Fill in your explanation(s) below.
@@ -39,3 +39,5 @@ that plan's rate is valid.
 There are two additional CSV files in this directory besides `slcsp.csv` --
 `plans.csv`, containing all the health plans in the U.S. on the marketplace, and
 `zips.csv`, containing a mapping of ZIP Code to county/counties & rate area(s).
+
+A ZIP Code can potentially be in more than one county.
