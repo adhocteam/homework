@@ -35,7 +35,7 @@ Notes
 -----
 
 There are downloads and instructions for installing go at:
-https://golang.org/doc/install . This code should work with go versions 1.3 or
+https://golang.org/doc/install . This code should work with Go version 1.3 or
 greater.
 
 To run the test, use `go test -v`.
