@@ -11,10 +11,10 @@ Task
 
 You have been given a CSV file (`slcsp.csv`) containing the ZIP Codes in one
 column. Fill in the second column with the rate of the corresponding SLCSP.
-Your answer is the modified CSV file, plus any source code used. (You can do
-this in the language(s) of your choice.) The order of the rows in the file must
-stay the same. If no SLCSP can be determined for a ZIP Code, leave the cell
-blank (no quotes or other text).
+Your answer is the modified CSV file, plus any source code used. (Write your
+code in your best programming language or languages.) The order of the rows in
+the file must stay the same. If no SLCSP can be determined for a ZIP Code, leave
+the cell blank (no quotes or other text).
 
 It may not be possible to determine a SLCSP for every ZIP Code given -- what
 reason or reasons are there? Fill in your explanation(s) below.
