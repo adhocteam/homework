@@ -50,5 +50,8 @@ If you are unfamiliar with writing middlewares in Go, read these blog posts:
 * http://www.alexedwards.net/blog/making-and-using-middleware
 * https://justinas.org/writing-http-middleware-in-go/
 
-If you need a hint, try using
-http://golang.org/pkg/net/http/httptest/#ResponseRecorder in your solution.
+If you need a hint, base64-decode this string:
+
+VHJ5IHVzaW5nIGh0dHA6Ly9nb2xhbmcub3JnL3BrZy9uZXQvaHR0cC9odHRwdGVzdC8jUmVzcG9uc2VSZWNvcmRlciBpbiB5b3VyIHNvbHV0aW9uLg==
+
+Please format your code with `gofmt` before submitting!
