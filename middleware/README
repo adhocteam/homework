@@ -26,13 +26,20 @@ the original response, so that a downstream client can deterministically
 recreate the canonical response. (HTTP proxies between here and there may add
 arbitrary headers.)
 
-Your answer must be the hex-encoded SHA1 hash of the HTTP response in
-`middleware_test.go` (the function that writes "We the people ..." to the body),
-as well as your source code, which should go in the place indicated in
-`middleware.go`. You must write Go code for this answer. Your code must pass the
-unit test, i.e., `go test`.
+Once you've written the middleware, run the server (`go run middleware.go`), and
+make a HTTP GET request to the root '/' path, using `curl` or a similar tool,
+with exactly these HTTP headers, no more, no fewer, byte-for-byte:
 
-    Answer: <SHA1 hash goes here>
+    User-Agent: adhoc-hmwrk/1.0
+    Accept: text/plain
+
+Your answer is the value of the HTTP header `X-Checksum` in the response. It's a
+hex-encoded SHA-1 hash, so a 40-character string. You must write Go code, in the
+place indicated in `middleware.go` There is a unit test included, in the file
+`middleware_test.go`: you can run `go test` locally to try out your solution
+before submitting the answer.
+
+    Answer: <checksum string goes here>
 
 Notes
 -----
@@ -50,8 +57,14 @@ If you are unfamiliar with writing middlewares in Go, read these blog posts:
 * http://www.alexedwards.net/blog/making-and-using-middleware
 * https://justinas.org/writing-http-middleware-in-go/
 
-If you need a hint, base64-decode this string:
+If you get an error message trying to run the server (`go run middleware.go`),
+like "listen tcp :8080: bind: address already in use", you can pass a flag to
+the program invocation instead, to have it listen on a port of your choosing:
+
+    go run middleware.go -http 127.0.0.1:7070
+
+If you are stuck and need a hint, base64-decode this string:
 
 VHJ5IHVzaW5nIGh0dHA6Ly9nb2xhbmcub3JnL3BrZy9uZXQvaHR0cC9odHRwdGVzdC8jUmVzcG9uc2VSZWNvcmRlciBpbiB5b3VyIHNvbHV0aW9uLg==
 
-Please format your code with `gofmt` before submitting!
+Please `gofmt` your code before submitting!
