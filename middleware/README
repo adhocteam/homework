@@ -27,17 +27,13 @@ recreate the canonical response. (HTTP proxies between here and there may add
 arbitrary headers.)
 
 Once you've written the middleware, run the server (`go run middleware.go`), and
-make a HTTP GET request to the root '/' path, using `curl` or a similar tool,
-with exactly these HTTP headers, no more, no fewer, byte-for-byte:
-
-    User-Agent: adhoc-hmwrk/1.0
-    Accept: text/plain
-
+make a HTTP GET request to the root '/' path, using `curl` or a similar tool.
 Your answer is the value of the HTTP header `X-Checksum` in the response. It's a
-hex-encoded SHA-1 hash, so a 40-character string. You must write Go code, in the
-place indicated in `middleware.go` There is a unit test included, in the file
-`middleware_test.go`: you can run `go test` locally to try out your solution
-before submitting the answer.
+hex-encoded SHA-1 hash, so a 40-character string.
+
+You must write Go code, in the place indicated in `middleware.go` There is a
+unit test included, in the file `middleware_test.go`: you can run `go test`
+locally to try out your solution before submitting the answer.
 
     Answer: <checksum string goes here>
 

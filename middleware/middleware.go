@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"strconv"
 )
 
 const (
@@ -26,10 +27,10 @@ func main() {
 	http.Handle("/", ChecksumMiddleware(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("X-Foo", "bar")
 		w.Header().Set("Content-Type", "text/plain")
-		fmt.Fprintf(w, "Here are the headers you sent:\n\n")
-		for k, v := range r.Header {
-			fmt.Fprintf(w, "* %s: %s\n", k, v)
-		}
+		w.Header().Set("Date", "Sun, 08 May 2016 14:04:53 GMT")
+		msg := "Curiosity is insubordination in its purest form.\n"
+		w.Header().Set("Content-Length", strconv.Itoa(len(msg)))
+		fmt.Fprintf(w, msg)
 	})))
 
 	log.Fatal(http.ListenAndServe(*listenAddr, nil))
