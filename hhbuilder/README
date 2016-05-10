@@ -23,9 +23,9 @@ Notes
 -----
 
 You must write JavaScript, not a language that compiles down to JavaScript. You
-must use ES3 or ES5 standard. Assume the capabilities of a modern mainstream
-browser in wide use, i.e., no bleeding-edge features. No 3rd party libraries --
-i.e., no jQuery.
+must use ES3 or ES5/5.1 standard. Assume the capabilities of a modern
+mainstream browser in wide use, i.e., no bleeding-edge features. No 3rd party
+libraries -- i.e., no jQuery.
 
 The display of the household list is up to you.
 
