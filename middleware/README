@@ -42,7 +42,11 @@ Notes
 
 There are downloads and instructions for installing go at:
 https://golang.org/doc/install . This code should work with Go version 1.3 or
-greater.
+greater. You can compile and run the `middleware.go` file by running:
+
+   go run middleware.go
+
+from this directory. Make sure the `go` executable is in your path.
 
 Take care to get the right concatenation of status, headers, and body -- that's
 a CRLF, or "\r" and "\n", between each component, and 2 of them between the last
