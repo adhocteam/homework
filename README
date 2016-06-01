@@ -1,10 +1,57 @@
-There are 4 programming problems here. The README in each directory should give
-you all the information you need to go on. If you submit your answers to us, be
-sure to have attempted all 4 problems.
+Ad Hoc homework problems
+===========================
+
+Each directory contains a homework problem, four in total. Please complete (or
+at least attempt) all four before submitting. Make sure to read the README in
+each directory, it will give you important information on completing each
+problem.
 
 We're on the honor system here: don't get help from or give help to another
-person or a resource on the internet. Do the work yourself. (It's okay if you
-need to consult language docs or the MDN or similar.)
+person or a resource on the internet. Do the work yourself. It's okay if you
+need to consult language docs or the MDN or similar.
 
-For questions, clarifications, or help with the assignments, email homework@adhocteam.us
-or join our public Slack channel https://adhocteam-public.herokuapp.com/
+Getting help
+------------
+
+If you get stuck, have a question, or want to clarify any aspect of the
+homework, you can contact members of our development team by:
+
+ - emailing homework@adhocteam.us
+ - joining our public Slack channel: https://adhocteam-public.herokuapp.com
+
+We think a sign of a good developer is one who asks questions sooner, rather
+than later. We are happy to help guide you to the right solution.
+
+Submitting your completed homework
+----------------------------------
+
+To submit your homework, zip or tar up the contents of this repo (please remove
+the .git directory, and anything else that might identify you), and email it to:
+
+ jobs@adhocteam.us
+
+If you want to include any comments with your submission, add them to the
+COMMENTS file.
+
+If there's anything important for us to know about how to run your code, please
+include that information in the COMMENTS file. We use Go, Ruby, and Python on a
+daily basis, so if you're submission is in some other language (which is OK),
+please let us know how we can set up our environment to run your code.
+
+Evaluation process
+------------------
+
+When we receive your homework, we'll asign it a random number, so that our team
+does not know whose submission they are reviewing. Your homework will be
+reviewed by at least three senior engineers on our team.
+
+A quick tip
+-----------
+
+A note about what we're looking for: we tend to favor solutions that clearly
+and concisley solve the problem at hand. We're not looking for an
+over-engineered solution. We want to see how you approach the problem,
+understand what's being asked, and solve it. We tend to favor solutions that
+are simple, elegant, and efficient.
+
+Good luck! We look forward to reviewing your submission.
