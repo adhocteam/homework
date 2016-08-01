@@ -16,7 +16,7 @@ The checksum is the SHA1 hash (hex encoded string) of a "canonical response".
 A canonical response constructed as follows (in pseudo-code):
 
      stringified http status code + "\r\n" +
-     <for each lexographically sorted (by name) http header>:
+     <for each lexicographically sorted (by name) http header>:
          header name + ": " + header value + "\r\n" +
      "X-Checksum-Headers: " + name[0] + ";" + name[1] + ";" + ... + ";" + name[n] + "\r\n\r\n" +
      body
@@ -27,12 +27,12 @@ recreate the canonical response. (HTTP proxies between here and there may add
 arbitrary headers.)
 
 Once you've written the middleware, run the server (`go run middleware.go`), and
-make a HTTP GET request to the root '/' path, using `curl` or a similar tool.
+make an HTTP GET request to the root '/' path, using `curl` or a similar tool.
 Your answer is the value of the HTTP header `X-Checksum` in the response. It's a
-hex-encoded SHA-1 hash, so a 40-character string.
+hex-encoded SHA-1 hash, so it will be a 40-character string.
 
-You must write Go code, in the place indicated in `middleware.go` There is a
-unit test included, in the file `middleware_test.go`: you can run `go test`
+You must write Go code in the place indicated in `middleware.go`. There is a
+unit test included in the file `middleware_test.go`: you can run `go test`
 locally to try out your solution before submitting the answer.
 
     Answer: <checksum string goes here>
@@ -41,8 +41,11 @@ Notes
 -----
 
 There are downloads and instructions for installing go at:
-https://golang.org/doc/install . This code should work with Go version 1.3 or
-greater. You can compile and run the `middleware.go` file by running:
+
+    https://golang.org/doc/install
+
+This code should work with Go version 1.3 or greater. You can
+compile and run the `middleware.go` file by running:
 
    go run middleware.go
 
@@ -59,7 +62,7 @@ If you are unfamiliar with writing middlewares in Go, read these blog posts:
 
 If you get an error message trying to run the server (`go run middleware.go`),
 like "listen tcp :8080: bind: address already in use", you can pass a flag to
-the program invocation instead, to have it listen on a port of your choosing:
+the program invocation to have it listen on a port of your choosing instead:
 
     go run middleware.go -http 127.0.0.1:7070
 
