@@ -37,7 +37,7 @@ Additional information
 
 The SLCSP is the so-called "benchmark" health plan in a particular area. It is
 used to compute the tax credit that qualifying individuals and families receive
-on the marketplace. It is the second lowest unique rate in the rate area.
+on the marketplace. It is the second lowest cost unique silver rate in the rate area.
 
 A plan has a "metal level", which can be either Bronze, Silver, Gold, Platinum,
 or Catastrophic. The metal level is indicative of the level of coverage the plan
