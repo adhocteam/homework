@@ -28,6 +28,8 @@ Please remove the .git directory, and anything else that might identify you.
 Then visit our [homework app](https://adhocteam.herokuapp.com/applicants/sign_up),
 sign up for an account, and follow the instructions to upload your homework there!
 
+In addition to submitting the homework, make sure to complete the application for the job you're applying for on [our jobs page](https://www.adhocteam.us/join).
+
 Evaluation process
 ------------------
 
