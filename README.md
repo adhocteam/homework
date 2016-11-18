@@ -32,7 +32,7 @@ Ruby, and Python on a daily basis, so if your submission is in some other
 language (which is OK), please let us know how we can set up our environment
 to run your code. Feel free to include any other information relevant to your
 submission in the COMMENTS as well. Then visit our
-[homework app](https://adhocteam.herokuapp.com/applicants/sign_up), sign up
+[homework app](https://adhocteam.herokuapp.com/candidates/sign_up), sign up
 for an account, and follow the instructions to upload your homework there!
 
 In addition to submitting the homework, make sure to complete the application for the job you're applying for on [our jobs page](https://www.adhocteam.us/join).
