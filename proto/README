@@ -28,7 +28,7 @@ MPS7 transaction log specification:
 
 Header:
 
-| 4 byte magic string "MPS7" | 1 byte version | 4 byte (uint32) # of records |
+| 4 byte magic string "MPS7" | 1 byte version | 4 byte (uint32) # of records minus 1 |
 
 Record:
 
