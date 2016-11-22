@@ -62,7 +62,7 @@ If you are unfamiliar with writing middlewares in Go, read these blog posts:
 
 If you get an error message trying to run the server (`go run middleware.go`),
 like "listen tcp :8080: bind: address already in use", you can pass a flag to
-the program invocation instead, to have it listen on a port of your choosing:
+the program invocation to have it listen on a port of your choosing instead:
 
     go run middleware.go -http 127.0.0.1:7070
 
