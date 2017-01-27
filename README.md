@@ -1,12 +1,24 @@
 Ad Hoc homework problems
 ========================
 
-Each directory contains a homework problem, four in total. Please complete one--or more--of the four before submitting. Make sure to read the README in
-each directory, it will give you important information on completing each problem.
+Each directory contains a homework problem, four in total. Please complete one--or
+more--of the four before submitting. Make sure to read the README in each directory,
+it will give you important information on completing each problem.
 
 We're on the honor system here. Don't get help from, or give help to, another
 person or a resource on the internet. Do the work yourself. It's okay if you
 need to consult language docs or the MDN or similar.
+
+Which problems should I try?
+------------
+
+Well, that depends on the position you're applying for! Here are some suggestions:
+
+ - Front-end Developer: [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder)
+ - Software Engineer (Full-stack): [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) and [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
+ - DevOps Engineer (Site Reliability): [proto](https://github.com/adhocteam/homework/tree/master/proto) and [middleware](https://github.com/adhocteam/homework/tree/master/middleware)
+
+These are just suggestions; if you really want to give all four problems a shot, go for it!
 
 Getting help
 ------------
@@ -35,7 +47,8 @@ submission in the COMMENTS as well. Then visit our
 [homework app](https://adhocteam.herokuapp.com/candidates/sign_up), sign up
 for an account, and follow the instructions to upload your homework there!
 
-In addition to submitting the homework, make sure to complete the application for the job you're applying for on [our jobs page](https://www.adhocteam.us/join).
+In addition to submitting the homework, make sure to complete the application
+for the job you're applying for on [our jobs page](https://www.adhocteam.us/join).
 
 Evaluation process
 ------------------
