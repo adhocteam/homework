@@ -23,14 +23,8 @@ appeared in the original `slcsp.csv`.
 If no SLCSP can be determined for a ZIP Code, leave the cell blank (no quotes or
 zeroes or other text).
 
-It may not be possible to determine a SLCSP for every ZIP Code given -- what
-reason or reasons are there? Fill in your explanation(s) below.
-
-    Reason:
-
-    1) ???
-
-    2) ???
+It may not be possible to determine a SLCSP for every ZIP Code given. Check for cases
+where a definitive answer cannot be found and leave those blank in the output CSV.
 
 Additional information
 ----------------------
@@ -58,3 +52,6 @@ There are two additional CSV files in this directory besides `slcsp.csv`:
 A ZIP Code can potentially be in more than one county. If the county can not be
 determined definitively by the ZIP Code, it may still be possible to determine
 the rate area for that ZIP Code.
+
+A ZIP Code can also be in more than one rate area. In that case, the answer is ambiguous
+and should be left blank.
