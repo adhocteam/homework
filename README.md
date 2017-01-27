@@ -15,7 +15,7 @@ Which problems should I try?
 Well, that depends on the position you're applying for! Here are some suggestions:
 
  - Front-end Developer: [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder)
- - Software Engineer (Full-stack): [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) and [proto](https://github.com/adhocteam/homework/tree/master/proto)
+ - Software Engineer (Full-stack): [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) and [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
  - DevOps Engineer (Site Reliability): [proto](https://github.com/adhocteam/homework/tree/master/proto) and [middleware](https://github.com/adhocteam/homework/tree/master/middleware)
 
 These are just suggestions; if you really want to give all four problems a shot, go for it!
