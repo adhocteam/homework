@@ -20,11 +20,9 @@ Write your code in your best programming language.
 The order of the rows in your answer file must stay the same as how they
 appeared in the original `slcsp.csv`.
 
-If no SLCSP can be determined for a ZIP Code, leave the cell blank (no quotes or
-zeroes or other text).
-
 It may not be possible to determine a SLCSP for every ZIP Code given. Check for cases
-where a definitive answer cannot be found and leave those blank in the output CSV.
+where a definitive answer cannot be found and leave those cells blank in the output CSV (no
+quotes of zeroes or other text).
 
 Additional information
 ----------------------
