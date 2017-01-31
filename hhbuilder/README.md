@@ -31,6 +31,8 @@ The display of the household list is up to you.
 
 Put the serialized JSON in the provided "debug" DOM element and display that element on submission.
 
+After submission the user should be able to make changes and submit the household again.
+
 Don't modify the initial HTML provided. (Obviously, you can modify the DOM.)
 
 The focus here is on the quality of your JavaScript, not the beauty of your design. The controls you add around viewing and deleting
