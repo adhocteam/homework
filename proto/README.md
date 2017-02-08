@@ -45,3 +45,5 @@ For Debit and Credit record types, there is an additional field, an 8 byte
 (float64) amount in dollars, at the end of the record.
 
 All multi-byte fields are encoded in network byte order.
+
+The header contains the canonical information about how the records should be processed.
