@@ -30,6 +30,8 @@ Header:
 
 | 4 byte magic string "MPS7" | 1 byte version | 4 byte (uint32) # of records |
 
+The header contains the canonical information about how the records should be processed.
+
 Record:
 
 | 1 byte record type enum | 4 byte (uint32) Unix timestamp | 8 byte (uint64) user ID |
@@ -45,5 +47,3 @@ For Debit and Credit record types, there is an additional field, an 8 byte
 (float64) amount in dollars, at the end of the record.
 
 All multi-byte fields are encoded in network byte order.
-
-The header contains the canonical information about how the records should be processed.
