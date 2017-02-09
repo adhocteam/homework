@@ -29,7 +29,7 @@ libraries -- i.e., no jQuery.
 
 The display of the household list is up to you.
 
-Put the serialized JSON in the provided "debug" DOM element and display that element on submission.
+On submission, put the serialized JSON in the provided "debug" DOM element and display that element.
 
 After submission the user should be able to make changes and submit the household again.
 
