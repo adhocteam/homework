@@ -53,3 +53,6 @@ the rate area for that ZIP Code.
 
 A ZIP Code can also be in more than one rate area. In that case, the answer is ambiguous
 and should be left blank.
+
+We will want to compile your code from source and run it, so please include the
+complete instructions for doing so in a COMMENTS file.
