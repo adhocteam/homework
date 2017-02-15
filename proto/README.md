@@ -21,6 +21,9 @@ You must answer the following questions:
 You must supply your source code as part of your answer. Write your code in your
 best programming language.
 
+We will want to compile your code from source and run it, so please include the
+complete instructions for doing so in a COMMENTS file.
+
 Notes
 -----
 
