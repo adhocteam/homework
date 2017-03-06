@@ -37,8 +37,8 @@ To submit your homework, zip up the contents of your git repo in a .zip file.
 Please remove the .git directory, and anything else that might identify you.
 If you want to include any comments with your submission, add them to the
 COMMENTS file. If there's anything important for us to know about how to run
-your code, please include that information in the COMMENTS file. We use Go,
-Ruby, and Python on a daily basis, so if your submission is in some other
+your code, please include that information in the COMMENTS file. We're quite familiar with Go,
+Ruby, Javascript, and Python, but if your submission is in some other
 language (which is OK), please let us know how we can set up our environment
 to run your code. Feel free to include any other information relevant to your
 submission in the COMMENTS as well. Then visit our
