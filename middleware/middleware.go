@@ -21,7 +21,7 @@ func ChecksumMiddleware(h http.Handler) http.Handler {
 
 // Do not change this function.
 func main() {
-	var listenAddr = flag.String("http", ":8080", "address to listen on for HTTP")
+	var listenAddr = flag.String("http", "localhost:8080", "address to listen on for HTTP")
 	flag.Parse()
 
 	http.Handle("/", ChecksumMiddleware(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
