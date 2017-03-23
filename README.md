@@ -5,8 +5,9 @@ Each directory contains a homework problem, four in total. Please complete one--
 more--of the four before submitting. Make sure to read the README in each directory,
 it will give you important information on completing each problem.
 
-We're on the honor system here, and the goal is to show what you're capable of. Feel free to use any resources you like in solving the problems
-but don't ask others for help or copy solutions you may find out there on the net.
+We're on the honor system here, and the goal is to show what you're capable of.
+Feel free to use any resources you like in solving the problems
+but don't ask others for help or make use of solutions you may find out there on the net.
 
 Which problems should I try?
 ------------
