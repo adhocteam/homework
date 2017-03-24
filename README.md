@@ -5,9 +5,8 @@ Each directory contains a homework problem, four in total. Please complete one--
 more--of the four before submitting. Make sure to read the README in each directory,
 it will give you important information on completing each problem.
 
-We're on the honor system here. Don't get help from, or give help to, another
-person or a resource on the internet. Do the work yourself. It's okay if you
-need to consult language docs or the MDN or similar.
+This is an open-book test, so Google away, but please don't copy your work from pre-existing solutions you may find or ask
+others to help you complete the exercises.
 
 Which problems should I try?
 ------------
