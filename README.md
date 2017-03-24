@@ -7,7 +7,7 @@ it will give you important information on completing each problem.
 
 We're on the honor system here, and the goal is to show what you're capable of.
 Feel free to use any resources you like in solving the problems
-but don't ask others for help or make use of solutions you may find out there on the net.
+but don't ask others for help or make use of pre-existing solutions you may find out there on the net.
 
 Which problems should I try?
 ------------
