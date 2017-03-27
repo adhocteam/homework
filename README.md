@@ -16,6 +16,7 @@ Well, that depends on the position you're applying for! Here are some suggestion
  - Front-end Developer: [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder)
  - Software Engineer (Full-stack): [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) and [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
  - DevOps Engineer (Site Reliability): [proto](https://github.com/adhocteam/homework/tree/master/proto) and [middleware](https://github.com/adhocteam/homework/tree/master/middleware)
+- Web Designer with Accessibility / 508 Expertise: [accessibility](https://github.com/adhocteam/homework/tree/master/accessibility)
 
 These are just suggestions; if you really want to give all four problems a shot, go for it!
 
