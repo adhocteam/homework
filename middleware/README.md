@@ -10,8 +10,9 @@ Task
 Write a HTTP handler function, which conforms to Go HTTP middleware conventions,
 that wraps an HTTP response and modifies it to add the checksum.  It should get
 the response from the HTTP handler it wraps, compute a checksum, add the
-checksum as an HTTP header called `X-Checksum`, and send the response.
-The checksum is the SHA1 hash (hex encoded string) of a "canonical response".
+checksum as an HTTP header called `X-Checksum`, add a list of headers as
+`X-Checksum-Headers`, and send the response. The checksum is the SHA1 hash (hex
+encoded string) of a "canonical response".
 
 A canonical response is constructed as follows (in pseudo-code):
 
