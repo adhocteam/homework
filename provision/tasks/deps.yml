@@ -1,0 +1,9 @@
+---
+- name: install dependencies
+  yum:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - unzip
+    - libselinux-python
+    - openssl

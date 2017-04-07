@@ -15,8 +15,8 @@ Well, that depends on the position you're applying for! Here are some suggestion
 
  - Front-end Developer: [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder)
  - Software Engineer (Full-stack): [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) and [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
- - DevOps Engineer (Site Reliability): [proto](https://github.com/adhocteam/homework/tree/master/proto) and [middleware](https://github.com/adhocteam/homework/tree/master/middleware)
-- Web Designer with Accessibility / 508 Expertise: [accessibility](https://github.com/adhocteam/homework/tree/master/accessibility)
+ - DevOps Engineer (Site Reliability): [provision](https://github.com/adhocteam/homework/tree/master/provision) and [proto](https://github.com/adhocteam/homework/tree/master/proto)
+ - Web Designer with Accessibility / 508 Expertise: [accessibility](https://github.com/adhocteam/homework/tree/master/accessibility)
 
 These are just suggestions; if you really want to give all four problems a shot, go for it!
 
@@ -34,7 +34,7 @@ Submitting your completed homework
 ----------------------------------
 
 To submit your homework, zip up the contents of your git repo in a .zip file.
-Please remove the .git directory, and anything else that might identify you.
+Please remove the .git directory, and *anything else that might identify you*.
 If you want to include any comments with your submission, add them to the
 COMMENTS file. If there's anything important for us to know about how to run
 your code, please include that information in the COMMENTS file. We're quite familiar with Go,
@@ -62,6 +62,7 @@ A note about what we're looking for: we tend to favor solutions that clearly
 and concisely solve the problem at hand. We're not looking for an
 over-engineered solution. We want to see how you approach the problem,
 understand what's being asked, and solve it. We tend to favor solutions that
-are simple, elegant, and efficient.
+are simple, elegant, and efficient. Submit a solution as if you were giving it
+to a colleague for code review.
 
 Good luck! We look forward to reviewing your submission.

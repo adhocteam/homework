@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: True
+  tasks:
+    - include: tasks/deps.yml
+
+    # +CUT+ your code goes here ...
+    
+    # -CUT-
