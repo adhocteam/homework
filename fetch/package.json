@@ -1,0 +1,37 @@
+{
+  "name": "Ad-Hoc-Frontend-Homework",
+  "version": "1.0.0",
+  "description": "Homework using modern JS tooling (ES6/flow)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-latest": "^6.16.0",
+    "es6-promise": "^4.0.5",
+    "express": "^4.15.2",
+    "fetch-ponyfill": "^3.0.2",
+    "karma-sourcemap-loader": "^0.3.7",
+    "urijs": "^1.18.4"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-webpack": "^1.7.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "test": "sh ./test/test.sh",
+    "karma": "./node_modules/karma/bin/karma start karma.conf.js --single-run",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "author": "Ad Hoc",
+  "license": "GPL-2.0"
+}
