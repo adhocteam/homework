@@ -18,7 +18,7 @@ Well, that depends on the position you're applying for! Here are some suggestion
  - DevOps Engineer (Site Reliability): [provision](https://github.com/adhocteam/homework/tree/master/provision) and [proto](https://github.com/adhocteam/homework/tree/master/proto)
  - Web Designer with Accessibility / 508 Expertise: [accessibility](https://github.com/adhocteam/homework/tree/master/accessibility)
 
-These are just suggestions; if you really want to give all four problems a shot, go for it!
+These are just suggestions; if you really want to give other problems a shot, go for it! Just be cognizant of the fact that humans need to grade these when choosing how many problems to try.
 
 Getting help
 ------------
