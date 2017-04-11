@@ -1,7 +1,7 @@
 Ad Hoc homework problems
 ========================
 
-Each directory contains a homework problem, six in total. Please complete at least one--but not more than three--of the problems before submitting. Make sure to read the README in each directory,
+Each directory contains a homework problem, seven in total. Please complete at least one--but not more than three--of the problems before submitting. Make sure to read the README in each directory,
 it will give you important information on completing each problem.
 
 This is an open-book test, so Google away, but please don't copy your work from pre-existing solutions you may find or ask
@@ -12,7 +12,7 @@ Which problems should I try?
 
 Well, that depends on the position you're applying for! Here are some suggestions:
 
- - Front-end Developer: [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder)
+ - Front-end Developer: [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) and [fetch](https://github.com/adhocteam/homework/tree/master/fetch)
  - Software Engineer (Full-stack): [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) and [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
  - DevOps Engineer (Site Reliability): [provision](https://github.com/adhocteam/homework/tree/master/provision) and [proto](https://github.com/adhocteam/homework/tree/master/proto)
  - Web Designer with Accessibility / 508 Expertise: [accessibility](https://github.com/adhocteam/homework/tree/master/accessibility)
