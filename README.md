@@ -1,7 +1,7 @@
 Ad Hoc homework problems
 ========================
 
-Each directory contains a homework problem, five in total. Please complete at least one--but not more than three--of the problems before submitting. Make sure to read the README in each directory,
+Each directory contains a homework problem, six in total. Please complete at least one--but not more than three--of the problems before submitting. Make sure to read the README in each directory,
 it will give you important information on completing each problem.
 
 This is an open-book test, so Google away, but please don't copy your work from pre-existing solutions you may find or ask
