@@ -2,11 +2,11 @@ Ad Hoc homework problems
 ========================
 
 Each directory contains a homework problem, four in total. Please complete one--or
-more--of the four before submitting. Make sure to read the README in each directory,
+more--of the problems before submitting. Make sure to read the README in each directory,
 it will give you important information on completing each problem.
 
 This is an open-book test, so Google away, but please don't copy your work from pre-existing solutions you may find or ask
-others to help you complete the exercises.
+others to help you complete the exercises. Code-based solutions should be able to be run on a UNIX command line (Linux/OS X). We're quite familiar with Go, Ruby, Javascript, and Python, but if your submission is in some other language (which is OK), please let us know how we can set up our environment to run your code.
 
 Which problems should I try?
 ------------
@@ -37,10 +37,7 @@ To submit your homework, zip up the contents of your git repo in a .zip file.
 Please remove the .git directory, and *anything else that might identify you*.
 If you want to include any comments with your submission, add them to the
 COMMENTS file. If there's anything important for us to know about how to run
-your code, please include that information in the COMMENTS file. We're quite familiar with Go,
-Ruby, Javascript, and Python, but if your submission is in some other
-language (which is OK), please let us know how we can set up our environment
-to run your code. Feel free to include any other information relevant to your
+your code, please include that information in the COMMENTS file. Feel free to include any other information relevant to your
 submission in the COMMENTS as well. Then visit our
 [homework app](https://adhocteam.herokuapp.com/candidates/sign_up), sign up
 for an account, and follow the instructions to upload your homework there!
