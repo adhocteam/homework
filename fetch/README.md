@@ -74,6 +74,7 @@ In `api/managed-records.js`, write a function named `retrieve` that requests dat
 - Do not use any `for` or `while` loops in your solution.
 - Do not add any additional libraries or edit any files other than `api/managed-records.js`
 - A suite of unit tests is provided. Your solution should pass all tests.
+- Please delete the `node_modules` directory before submitting your completed homework. 
 
 
 ## Setup
