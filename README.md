@@ -35,7 +35,7 @@ On Overengineering
 Your goal on these exercises should be to write well-structured code that addresses the problems as they
 are stated in the instructions. Designing the code in an easy-to-read and straightforward way will get you
 more points than creating a fancy object hierarchy, showing off what you would do in a larger project,
-or making it enterprise ready (please don't make it enterprise ready).
+or making it enterprise ready.
 
 Submitting your completed homework
 ----------------------------------
