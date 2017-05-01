@@ -2,7 +2,7 @@
 
 ### Requirements
 
-You'll need [Vagrant](https://www.vagrantup.com/) for this exercise.
+You'll need [Vagrant](https://www.vagrantup.com/) and [Ansible](https://docs.ansible.com/ansible/intro_installation.html) for this exercise.
 
 ### The task(s)
 
@@ -44,6 +44,9 @@ Pass: X-Real-IP is present and not 'None'
 Pass: found "It's easier to ask forgiveness than it is to get permission." in response
 ```
 
-### Tips:
+### Tips & Guidance:
 
+- Do not alter the `Vagrantfile`.
+- Do not include `.vagrant/`, `.retry` files, or other detritus.  
+- Do add notes on running your solution, or why you choose a particular solution, in a COMMENTS.md file.
 - You can find a suitable runit package at https://packagecloud.io/imeyer/runit
