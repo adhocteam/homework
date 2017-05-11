@@ -1,0 +1,16 @@
+Form
+============
+
+You are a developer on a team. You wake up one morning, and check Pivotal Tracker. The top story in the backlog is entitled:
+
+  Users can enter and store their name, address, phone number, and date of birth.
+
+In the description section, it says:
+
+  Users visiting the home page of the site should see a link to create a new profile. Users should be able to enter in their name, address, phone number, and date of birth. They should be able to submit this information. Once submitted, they should be shown the information. No authentication is required, the user does not need to be able to edit or delete the information after submitting it.
+
+Before beginning work on this feature, make sure that you have all the information you need to complete it. To ask questions, email them to homework+form@adhocteam.us.
+
+The contents of this directory are your codebase, a simple Rails application. It's set up to use an SQLite database, and has RSpec configured for tests.
+
+To complete this assignment, create a new git repository in this directory, and branch off master. Provide your implementation of the feature in your branch. Include the git repo (the .git directory) in your submission.
