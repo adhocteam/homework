@@ -6,6 +6,8 @@ You'll need [Vagrant](https://www.vagrantup.com/) and [Ansible](https://docs.ans
 
 ### The task(s)
 
+Generally, your submission should demonstrate good security practices. Show us your understanding of security best-practices: TLS/SSL settings in your nginx configuration, how you manage third-party dependencies, and restrict access to sensitive files.
+
 #### Part one
 
 Complete the `config/nginx.conf` by writing a `server` directive(s) that proxies to the upstream `application`.
@@ -15,7 +17,8 @@ Requirements:
 - Nginx should accept requests on ports 80 and 443
 - All `http` requests should permanently redirect to their `https` equivalent
 - Use the provided `files/self-signed.crt` and `files/self-signed.key` for your SSL configuration
-- Nginx should proxy requests to the upstream application
+- Your SSL configuration should use modern, secure protocols and ciphers
+- Nginx should proxy requests to the application using an `upstream` directive
 - Pass headers `X-Forwarded-For` and `X-Real-IP` to the upstream application with appropriate values
 
 #### Part two
@@ -46,7 +49,5 @@ Pass: found "It's easier to ask forgiveness than it is to get permission." in re
 
 ### Tips & Guidance:
 
-- Do not alter the `Vagrantfile`.
-- Do not include `.vagrant/`, `.retry` files, or other detritus.  
-- Do add notes on running your solution, or why you choose a particular solution, in a COMMENTS.md file.
 - You can find a suitable runit package at https://packagecloud.io/imeyer/runit
+- Avoid chaining commands using `|` and `&&` in your `playbook.yml`
