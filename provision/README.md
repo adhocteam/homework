@@ -50,4 +50,7 @@ Pass: found "It's easier to ask forgiveness than it is to get permission." in re
 ### Tips & Guidance:
 
 - You can find a suitable runit package at https://packagecloud.io/imeyer/runit
+- Do not alter the `Vagrantfile`.
+- Do not include `.vagrant/`, `.retry` files, or other detritus.
+- Do add notes on running your solution, or why you choose a particular solution, in a COMMENTS.md file.
 - Avoid chaining commands using `|` and `&&` in your `playbook.yml`
