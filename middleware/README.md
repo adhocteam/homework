@@ -49,9 +49,9 @@ compile and run the `middleware.go` file by running:
 
    go run middleware.go
 
-Do not assume the unit tests provided are exhaustive. You should also CURL against the running program.
-
 from this directory. Make sure the `go` executable is in your path.
+
+Do not assume the unit tests provided are exhaustive. You should also CURL against the running program.
 
 Take care to get the right concatenation of status, headers, and body -- that's
 a CRLF, or "\r" and "\n", between each component, and 2 of them between the last
