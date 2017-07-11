@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"strconv"
 )
 
@@ -24,7 +25,10 @@ func main() {
 	var listenAddr = flag.String("http", "localhost:8080", "address to listen on for HTTP")
 	flag.Parse()
 
+	l := log.New(os.Stderr, "", 1)
+
 	http.Handle("/", ChecksumMiddleware(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		l.Printf("%s - %s", r.Method, r.URL)
 		w.Header().Set("X-Foo", "bar")
 		w.Header().Set("Content-Type", "text/plain")
 		w.Header().Set("Date", "Sun, 08 May 2016 14:04:53 GMT")
