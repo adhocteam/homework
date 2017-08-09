@@ -4,6 +4,4 @@
   tasks:
     - include: tasks/deps.yml
 
-    # +CUT+ your code goes here ...
-    
-    # -CUT-
+    # your code goes here ...
