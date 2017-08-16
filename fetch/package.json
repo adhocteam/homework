@@ -8,9 +8,9 @@
   },
   "dependencies": {
     "babel-core": "^6.21.0",
-    "babel-loader": "^6.2.10",
+    "babel-loader": "6.4.0",
     "babel-polyfill": "^6.20.0",
-    "babel-preset-latest": "^6.16.0",
+    "babel-preset-env": "^1.4.0",
     "es6-promise": "^4.0.5",
     "express": "^4.15.2",
     "fetch-ponyfill": "^3.0.2",
