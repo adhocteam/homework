@@ -38,7 +38,7 @@ If you want to include any comments with your submission, add them to the
 COMMENTS file. If there's anything important for us to know about how to run
 your code, please include that information in the COMMENTS file. Feel free to include any other information relevant to your
 submission in the COMMENTS as well. Then visit our
-[homework app](https://adhocteam.herokuapp.com/candidates/sign_up), sign up
+[homework app](https://people.adhoc.team/candidates/sign_up), sign up
 for an account, and follow the instructions to upload your homework there!
 
 In addition to submitting the homework, make sure to complete the application
