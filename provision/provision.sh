@@ -2,6 +2,7 @@
 
 vagrant halt -f
 vagrant destroy -f
+rm -rf .vagrant
 vagrant up --provision
 
 # Check that status is 200 OK
