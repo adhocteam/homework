@@ -24,7 +24,7 @@ Getting help
 
 If you get stuck, have a question, or want to clarify any aspect of the
 homework, you can contact members of our development team by
-joining our [public Slack channel.](https://adhocteam-public.herokuapp.com)
+joining our [public Slack channel.](https://public-slack.adhoc.team)
 
 We think a sign of a good developer is one who asks questions sooner, rather
 than later. We are happy to help guide you to the right solution.
