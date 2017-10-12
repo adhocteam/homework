@@ -44,7 +44,7 @@ describe("Records", function() {
     });
   });
 
-  it('should return a empty last page plus one of results', function(done){
+  it('should return an empty set of results for pages after the last page', function(done){
     var expected = {"previousPage":50,"nextPage":null,"ids":[],"open":[],"closedPrimaryCount":0};
     retrieve({page: 51}).then(function(output){
       expect(output).toEqual(expected);
