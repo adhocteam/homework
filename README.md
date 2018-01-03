@@ -1,23 +1,22 @@
 Ad Hoc homework problems
 ========================
 
-Each directory contains a homework problem, seven in total. Please complete at least one--but not more than three--of the problems before submitting. Make sure to read the README in each directory,
+Each directory contains a homework problem, seven in total. Please complete one problem to start off, we will ask for more if your first submission passes blinded review. Make sure to read the README in each directory,
 it will give you important information on completing each problem.
 
 This is an open-book test, so Google away, but please don't copy your work from pre-existing solutions you may find or ask
 others to help you complete the exercises. Solutions should be able to be run on a UNIX command line (Linux/Mac). We're quite familiar with Go, Ruby, Javascript, and Python, but if your submission is in some other language (which is OK), please let us know how we can set up our environment to run your code.
 
-Which problems should I try?
+Which problems should I start with?
 ------------
 
 Well, that depends on the position you're applying for! Here are some suggestions:
 
- - Front-end Developer: [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) and [fetch](https://github.com/adhocteam/homework/tree/master/fetch)
- - Software Engineer (Full-stack): [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) and [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
- - DevOps Engineer (Site Reliability): [provision](https://github.com/adhocteam/homework/tree/master/provision) and [proto](https://github.com/adhocteam/homework/tree/master/proto)
+ - Front-end Developer: [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [fetch](https://github.com/adhocteam/homework/tree/master/fetch)
+ - Software Engineer (Full-stack): [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
+ - DevOps Engineer (Site Reliability): [provision](https://github.com/adhocteam/homework/tree/master/provision) or [proto](https://github.com/adhocteam/homework/tree/master/proto)
  - UX Design: [ux-design](https://github.com/adhocteam/homework/tree/master/ux-design)
-
-These are just suggestions; if you really want to give other problems a shot, go for it, but don't do more than three of them before hearing back from us.
+ - Engineering Lead: Pick two from hhbuilder, fetch, provision, middleware, proto, and SLCSP.
 
 Getting help
 ------------
@@ -49,7 +48,7 @@ Evaluation process
 
 When we receive your homework, we'll assign it a random number, so that our team
 does not know whose submission they are reviewing. Your homework will be
-reviewed by at least three senior engineers on our team.
+reviewed by multiple engineers on our team.
 
 A quick tip
 -----------
