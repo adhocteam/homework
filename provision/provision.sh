@@ -6,7 +6,7 @@ rm -rf .vagrant
 vagrant up --provision
 
 # Check that status is 200 OK
-status_code=$(vagrant ssh -c "curl -k -s -o /dev/null -w \"%{http_code}\" https://127.0.0.1/" 2> /dev/null)
+status_code=$(vagrant ssh -c "curl -k -s -o /dev/null -w "%{http_code}" https://127.0.0.1/" 2> /dev/null)
 
 if [[ $status_code == "200" ]]
 then
