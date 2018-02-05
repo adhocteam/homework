@@ -12,11 +12,24 @@ Which problems should I start with?
 
 Well, that depends on the position you're applying for! Here are some suggestions:
 
- - Front-end Developer: [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [fetch](https://github.com/adhocteam/homework/tree/master/fetch)
- - Software Engineer (Full-stack): [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
- - DevOps Engineer (Site Reliability): [provision](https://github.com/adhocteam/homework/tree/master/provision) or [proto](https://github.com/adhocteam/homework/tree/master/proto)
- - UX Design: [ux-design](https://github.com/adhocteam/homework/tree/master/ux-design)
- - Engineering Lead: Pick two from hhbuilder, fetch, provision, middleware, proto, and SLCSP.
+### Front-end Developer
+- Assignment set: hhbuilder and fetch (2 total)
+- Start with [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [fetch](https://github.com/adhocteam/homework/tree/master/fetch)
+
+### Software Engineer / Full-Stack Engineer
+- Assignment set: hhbuilder, fetch, middleware, proto, SLCSP (3 total)
+- Start with [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
+
+### DevOps Engineer / Site Reliability Engineer
+- Assignment set: provision and either proto or middleware (2 total)
+- Start with [provision](https://github.com/adhocteam/homework/tree/master/provision)
+
+### UX Design
+- Complete [ux-design](https://github.com/adhocteam/homework/tree/master/ux-design)
+
+### Engineering Lead
+- Assignment set: slow_widgets, dog_license, and 2 technical assignments (4 total)
+- Start by picking two from hhbuilder, fetch, provision, middleware, proto, and SLCSP
 
 Getting help
 ------------

@@ -12,7 +12,11 @@ An application that you have just assumed complete responsibility for is used fo
 * Is slow looking up nearby widgets
 * Does not provide user feedback when importing favorite widgets
 
-The metrics below are all that are currently captured for this application. Given that provided context, how would you approach planning technical improvement for this application?
+The task is to plan out priorities for technical improvement for this application, given the following context:
+* A team is in place to implement changes
+* The metrics below are all that are currently captured for the application
+* Assume a 6 week period with multiple deploy windows to improve the application
+
 
 ### Appendix A
 
@@ -23,7 +27,7 @@ The metrics below are all that are currently captured for this application. Give
 | LocationController#find      | 645 ms   |
 | HomeController#index         | 126.9 ms |
 
-### Appendix B
+### Appendix B - Transaction trace for LocationController#find
 
 | Category       | Segment                            | % Time | Avg calls (per txn) | Avg time (ms) |
 |----------------|------------------------------------|--------|---------------------|---------------|
