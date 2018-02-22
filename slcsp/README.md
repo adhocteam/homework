@@ -31,9 +31,9 @@ The SLCSP is the so-called "benchmark" health plan in a particular area. It is
 used to compute the tax credit that qualifying individuals and families receive
 on the marketplace. It is the second lowest rate for a silver plan in the rate area.
 
-For example, if a rate area had silver plans with rates of
-`[197.3, 197.3, 201.1, 305.4]`, the SLCSP for that rate area would be `201.1`, since
-it is the second lowest rate in that rate area.
+For example, if a rate area had silver plans with rates of `[197.3, 197.3,
+201.1, 305.4, 306.7, 411.24]`, the SLCSP for that rate area would be `201.1`,
+since it is the second lowest rate in that rate area.
 
 A plan has a "metal level", which can be either Bronze, Silver, Gold, Platinum,
 or Catastrophic. The metal level is indicative of the level of coverage the plan
