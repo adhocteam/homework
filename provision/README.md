@@ -2,7 +2,7 @@
 
 ### Requirements
 
-You'll need [Vagrant](https://www.vagrantup.com/) and [Ansible](https://docs.ansible.com/ansible/intro_installation.html) for this exercise.
+You'll need [Vagrant](https://www.vagrantup.com/), version 2.0+ and [Ansible](https://docs.ansible.com/ansible/intro_installation.html) for this exercise.
 
 ### The task(s)
 

@@ -1,16 +1,22 @@
 UX Design
 =================
 
-## Purpose:
+## Purpose
 
-The purpose of this exercise is to get a greater understanding of your design process.
+The purpose of this exercise is to get a greater understanding of how you approach design problems.
 
-### Instructions:
+## Instructions
 
-Describe a unique UX problem you've worked on recently, and provide a few paragraphs that explain your process for arriving at a solution. (Don't spend more than one hour on this!)
+Design an interface that allows a patient to schedule an appointment with their doctor online.
 
-#### Submission
+### Submission
 
-Create a folder and write your answer into a markdown or text file. You may include any sketches, screenshots, or other artifacts you think would be helpful in documenting and explaining your process in this folder as well.
+Prepare a set of questions to bring to a kick-off meeting. You know that their current systems have some rudimentary online tools, but it's mostly a paper-driven organization.
 
-When you are done, create a zip file containing all your work, [create a candidate account on our recruiting site](https://people.adhoc.team/candidates/sign_up) and upload your solution.
+#### What are the first 10 questions that you would ask?
+
+If you had to pick just five of them, which would you prioritize and why? Submit *both* your initial set of 10 questions, and your prioritized set of five questions.
+
+Answer in under 800 words, and store as a plain text file.
+
+When you are done, create a zip file containing that file, create a candidate account on our recruiting site and upload your solution.
