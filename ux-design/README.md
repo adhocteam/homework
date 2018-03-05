@@ -19,4 +19,4 @@ If you had to pick just five of them, which would you prioritize and why? Submit
 
 Answer in under 800 words, and store as a plain text file.
 
-When you are done, create a zip file containing that file, create a candidate account on our recruiting site and upload your solution.
+When you are done, create a zip file containing that file, [create a candidate account on our recruiting site](https://people.adhoc.team/) and upload your solution.
