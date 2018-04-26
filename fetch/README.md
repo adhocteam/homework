@@ -79,7 +79,7 @@ In `api/managed-records.js`, write a function named `retrieve` that requests dat
 
 ## Setup
 
-### Requirements: NodeJS > 4
+**Requirements:** NodeJS > 4, [yarn](https://yarnpkg.com/en/docs/install)
 
 `yarn install` to install.
 
