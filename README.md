@@ -20,6 +20,10 @@ Well, that depends on the position you're applying for! Here are some suggestion
 - Assignment set: hhbuilder, fetch, middleware, proto, SLCSP (3 total)
 - Start with [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
 
+### Backend Developer
+- Assignment set: fetch, middleware, proto, SLCSP (2 total)
+- Start with [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp) or [proto](https://github.com/adhocteam/homework/tree/master/proto)
+
 ### DevOps Engineer / Site Reliability Engineer
 - Assignment set: provision and either proto or middleware (2 total)
 - Start with [provision](https://github.com/adhocteam/homework/tree/master/provision)
