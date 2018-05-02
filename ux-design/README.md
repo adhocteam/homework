@@ -7,15 +7,16 @@ The purpose of this exercise is to get a greater understanding of how you approa
 
 ## Instructions
 
-Design an interface that allows a patient to schedule an appointment with their doctor online.
+Imagine you've been tasked with designing an interface that allows a patient to schedule an appointment with their doctor online.
 
 ### Submission
 
 Prepare a set of questions to bring to a kick-off meeting. You know that their current systems have some rudimentary online tools, but it's mostly a paper-driven organization.
 
-#### What are the first 10 questions that you would ask?
+- What are the first 10 questions that you would ask?
+- If you had to pick just five of them, which would you prioritize and why? 
 
-If you had to pick just five of them, which would you prioritize and why? Submit *both* your initial set of 10 questions, and your prioritized set of five questions.
+Submit *both* your initial set of 10 questions, and your prioritized set of five questions.
 
 Answer in under 800 words, and store as a plain text file.
 
