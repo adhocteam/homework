@@ -19,7 +19,7 @@ const retrieve = ({ page = 1, colors } = {}) => {
 
 const recordsURL = (page, colors) => {
   const url = URI(window.path).search({
-    limit: ITEMS_PER_PAGE,
+    limit: ITEMS_PER_PAGE + 1, // Adding +1 to check if next page has records
     offset: (page - 1) * ITEMS_PER_PAGE,
   });
 
@@ -28,21 +28,23 @@ const recordsURL = (page, colors) => {
   return url;
 };
 
-const transformRecordsData = (page, data) => {
-  const openRecords = data
+const transformRecordsData = (page, originalData) => {
+  const desiredData = originalData.slice(0, 10);
+
+  const openRecords = desiredData
     .filter(record => record.disposition === "open")
     .map(record => Object.assign(record, { isPrimary: isPrimaryColor(record.color) }));
 
-  const closedPrimaryCount = data
+  const closedPrimaryCount = desiredData
     .filter(record => record.disposition === "closed" && isPrimaryColor(record.color))
     .length;
 
   return {
-    ids: data.map(record => record.id),
+    ids: desiredData.map(record => record.id),
     open: openRecords,
     closedPrimaryCount: closedPrimaryCount,
     previousPage: page === 1 ? null : page - 1,
-    nextPage: data.length < 10 ? null : page + 1,
+    nextPage: originalData.length === ITEMS_PER_PAGE + 1 ? page + 1: null,
   };
 };
 
