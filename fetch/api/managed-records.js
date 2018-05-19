@@ -14,12 +14,12 @@ const retrieve = ({ page = 1, colors }) => {
 
   console.log('recordsURL ----->', recordsURL.toString());
 
-  fetch(recordsURL)
+  return fetch(recordsURL)
     .then((response) => {
       console.log(response);
     })
     .catch((error) => {
-      console.log(error);
+      console.log('Request error', error);
     });
 };
 
