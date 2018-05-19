@@ -4,9 +4,17 @@ import URI from "urijs";
 // /records endpoint
 window.path = "http://localhost:3000/records";
 
-// Your retrieve function plus any additional functions go here ...
 const retrieve = () => {
+  const recordsURL = URI(window.path)
+    .search("limit", "10")
 
+  fetch(recordsURL)
+    .then((response) => {
+      console.log(response);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
 };
 
 export default retrieve;
