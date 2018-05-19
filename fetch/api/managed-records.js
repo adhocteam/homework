@@ -4,9 +4,13 @@ import URI from "urijs";
 // /records endpoint
 window.path = "http://localhost:3000/records";
 
-const retrieve = () => {
-  const recordsURL = URI(window.path)
-    .search("limit", "10")
+const retrieve = ({ page = 1, colors }) => {
+  const recordsURL = URI(window.path).search({
+    limit: 10,
+    offset: (page - 1) * 10,
+  });
+
+  console.log('recordsURL ----->', recordsURL.toString());
 
   fetch(recordsURL)
     .then((response) => {
