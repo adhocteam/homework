@@ -8,6 +8,9 @@ const ITEMS_PER_PAGE = 10;
 window.path = "http://localhost:3000/records";
 
 
+// ==================
+// Record retrieving functions
+// ==================
 const retrieve = ({ page = 1, colors } = {}) => {
   return fetch(recordsURL(page, colors))
     .then(response => response.json())
@@ -28,6 +31,10 @@ const recordsURL = (page, colors) => {
   return url;
 };
 
+
+// ==================
+// Data transformation functions
+// ==================
 const transformRecordsData = (page, originalData) => {
   const desiredData = originalData.slice(0, ITEMS_PER_PAGE);
 
@@ -49,5 +56,6 @@ const transformRecordsData = (page, originalData) => {
 };
 
 const isPrimaryColor = color => PRIMARY_COLORS.includes(color);
+
 
 export default retrieve;
