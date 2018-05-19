@@ -10,6 +10,8 @@ const retrieve = ({ page = 1, colors }) => {
     offset: (page - 1) * 10,
   });
 
+  if (colors) recordsURL.addSearch('color[]', colors);
+
   console.log('recordsURL ----->', recordsURL.toString());
 
   fetch(recordsURL)
