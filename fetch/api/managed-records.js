@@ -41,7 +41,7 @@ const transformRecordsData = (page, data) => {
     ids: data.map(record => record.id),
     open: openRecords,
     closedPrimaryCount: closedPrimaryCount,
-    previousPage: page === 1 ? null : page,
+    previousPage: page === 1 ? null : page - 1,
     nextPage: data.length < 10 ? null : page + 1,
   };
 };
