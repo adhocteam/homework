@@ -8,10 +8,10 @@ const ITEMS_PER_PAGE = 10;
 window.path = "http://localhost:3000/records";
 
 
-const retrieve = ({ page = 1, colors }) => {
+const retrieve = ({ page = 1, colors } = {}) => {
   return fetch(recordsURL(page, colors))
     .then(response => response.json())
-    .then(transformRecordsData)
+    .then(data => transformRecordsData(page, data))
     .catch((error) => {
       console.log("Request error", error);
     });
@@ -28,10 +28,10 @@ const recordsURL = (page, colors) => {
   return url;
 };
 
-const transformRecordsData = (data) => {
+const transformRecordsData = (page, data) => {
   const openRecords = data
     .filter(record => record.disposition === "open")
-    .map(record => records.isPrimary = isPrimaryColor(color));
+    .map(record => Object.assign(record, { isPrimary: isPrimaryColor(record.color) }));
 
   const closedPrimaryCount = data
     .filter(record => record.disposition === "closed" && isPrimaryColor(record.color))
@@ -41,6 +41,8 @@ const transformRecordsData = (data) => {
     ids: data.map(record => record.id),
     open: openRecords,
     closedPrimaryCount: closedPrimaryCount,
+    previousPage: page === 1 ? null : page,
+    nextPage: data.length < 10 ? null : page + 1,
   };
 };
 
