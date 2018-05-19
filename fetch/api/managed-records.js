@@ -29,7 +29,7 @@ const recordsURL = (page, colors) => {
 };
 
 const transformRecordsData = (page, originalData) => {
-  const desiredData = originalData.slice(0, 10);
+  const desiredData = originalData.slice(0, ITEMS_PER_PAGE);
 
   const openRecords = desiredData
     .filter(record => record.disposition === "open")
@@ -44,7 +44,7 @@ const transformRecordsData = (page, originalData) => {
     open: openRecords,
     closedPrimaryCount: closedPrimaryCount,
     previousPage: page === 1 ? null : page - 1,
-    nextPage: originalData.length === ITEMS_PER_PAGE + 1 ? page + 1: null,
+    nextPage: originalData.length > ITEMS_PER_PAGE ? page + 1 : null,
   };
 };
 
