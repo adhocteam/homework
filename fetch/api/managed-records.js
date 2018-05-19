@@ -5,5 +5,8 @@ import URI from "urijs";
 window.path = "http://localhost:3000/records";
 
 // Your retrieve function plus any additional functions go here ...
+const retrieve = () => {
+
+};
 
 export default retrieve;
