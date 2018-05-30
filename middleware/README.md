@@ -1,6 +1,8 @@
 Write a checksum middleware
 ===========================
 
+# DEPRECATED - We will stop accepting this assignment on August 31st and will publish the solution shortly after
+
 You have been asked to add a checksum to all outgoing HTTP responses, as
 a custom HTTP header.
 

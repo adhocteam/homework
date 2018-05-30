@@ -17,15 +17,15 @@ Well, that depends on the position you're applying for! Here are some suggestion
 - Start with [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [fetch](https://github.com/adhocteam/homework/tree/master/fetch)
 
 ### Software Engineer / Full-Stack Engineer
-- Assignment set: hhbuilder, fetch, middleware, proto, SLCSP (3 total)
+- Assignment set: hhbuilder, fetch, noclist, proto, SLCSP (3 total)
 - Start with [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
 
 ### Backend Developer
-- Assignment set: fetch, middleware, proto, SLCSP (2 total)
+- Assignment set: fetch, noclist, proto, SLCSP (2 total)
 - Start with [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp) or [proto](https://github.com/adhocteam/homework/tree/master/proto)
 
 ### DevOps Engineer / Site Reliability Engineer
-- Assignment set: provision and either proto or middleware (2 total)
+- Assignment set: provision and either proto or noclist (2 total)
 - Start with [provision](https://github.com/adhocteam/homework/tree/master/provision)
 
 ### UX Design
@@ -33,7 +33,7 @@ Well, that depends on the position you're applying for! Here are some suggestion
 
 ### Engineering Lead
 - Assignment set: slow_widgets, dog_license, and 2 technical assignments (4 total)
-- Start by picking two from hhbuilder, fetch, provision, middleware, proto, and SLCSP
+- Start by picking two from hhbuilder, fetch, provision, noclist, proto, and SLCSP
 
 Getting help
 ------------

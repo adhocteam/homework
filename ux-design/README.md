@@ -18,6 +18,6 @@ Prepare a set of questions to bring to a kick-off meeting. You know that their c
 
 Submit *both* your initial set of 10 questions, and your prioritized set of five questions.
 
-Answer in under 800 words, and store as a plain text file.
+Answer in under 800 words, and store as a plain text file (without any personally identifying information).
 
 When you are done, create a zip file containing that file, [create a candidate account on our recruiting site](https://people.adhoc.team/) and upload your solution.
