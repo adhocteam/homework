@@ -88,7 +88,7 @@ describe("Records", function() {
       });
     }
 
-    retrieve().then(check);
+    retrieve().then(check).catch(done);
   });
 
 });
