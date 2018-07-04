@@ -7,24 +7,19 @@ Fortunately, BADSEC provides an API to the agency you've been working with.
 Unfortunately, it's not the best API in the world.
 
 Your job is to write a program that securely and politely asks the BADSEC
-server for this list of users and prints it to stdout in json format. 
+server for this list of users and prints it to stdout in JSON format.
 
 As the server that your application will be hitting is not well written, you
 should seek to minimize the amount of communication it does. Furthermore, you
 should write a client that is resilient to errors in the server.
 
-If a call to an endpoint fails, you should retry up to 2 times. If the call
-fails 3 times in a row, your application should exit with a non-zero status
-code to indicate failure.
 
-You may treat any response with a response code other than 200 as a failure.
-
-We will want to build and run your code from source, so please include the 
+We will want to build and run your code from source, so please include the
 complete instructions for doing so in a COMMENTS file.
 
 ## Output Format
 
-Your application should output a JSON-formatted list of user ids:
+Your application should output a JSON-formatted list of user ids to stdout:
 
 ```json
 ["9757263792576857988", "7789651288773276582", "16283886502782682407", "...etc"]
@@ -32,6 +27,10 @@ Your application should output a JSON-formatted list of user ids:
 
 Your application should exit with a status code of zero on success, and nonzero
 on failure.
+
+Log as much as you want to stderr, but make sure that stdout includes only the
+JSON output of your program if there is any; otherwise the results won't parse
+properly.
 
 ## Running the Server
 
@@ -41,11 +40,30 @@ The BADSEC server will run on port 8888. You can start it with:
 
 `docker run --rm -p 8888:8888 adhocteam/noclist`
 
-You should see `Listening on http://127.0.0.1:8888`.
+You should see `Listening on http://0.0.0.0:8888`.
 
 If you have any trouble getting the server running, or any other questions
 about this homework, please join the [public slack
 channel](https://public-slack.adhoc.team/) and ask us.
+
+## Handling Errors
+
+You may treat a dropped connection or any response code other than 200 as a
+failure.
+
+If a call to an endpoint fails, you should retry up to 2 times. If the call
+fails 3 times in a row, your application should exit with a non-zero status
+code to indicate failure.
+
+Avoid off by one errors! The correct sequence is:
+`try -> fail -> retry -> fail -> retry -> exit if fail`
+
+The server you have been given is just a demonstration server; it should not
+throw any errors.
+
+The production server your code will run against after you submit it will
+return non-200 responses and randomly drop connections; your code should be
+able to handle those errors.
 
 ## Server API
 

@@ -24,7 +24,7 @@ Well, that depends on the position you're applying for! Here are some suggestion
 - Assignment set: fetch, noclist, proto, SLCSP (2 total)
 - Start with [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp) or [proto](https://github.com/adhocteam/homework/tree/master/proto)
 
-### DevOps Engineer / Site Reliability Engineer
+### Infrastructure Engineer / DevOps Engineer / Site Reliability Engineer
 - Assignment set: provision and either proto or noclist (2 total)
 - Start with [provision](https://github.com/adhocteam/homework/tree/master/provision)
 
