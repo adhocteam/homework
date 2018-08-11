@@ -51,6 +51,8 @@ channel](https://public-slack.adhoc.team/) and ask us.
 You may treat a dropped connection or any response code other than 200 as a
 failure.
 
+Keep in mind that both the `/auth` and `/users` endpoints may fail.
+
 If a call to an endpoint fails, you should retry up to 2 times. If the call
 fails 3 times in a row, your application should exit with a non-zero status
 code to indicate failure.

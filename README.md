@@ -31,7 +31,11 @@ Well, that depends on the position you're applying for! Here are some suggestion
 ### UX Design
 - Complete [ux-design](https://github.com/adhocteam/homework/tree/master/ux-design)
 
-### Engineering Lead
+### Staff Software Engineer
+- Assignment set: slow_widgets and 2 technical assignments (3 total)
+- Start by picking two from hhbuilder, fetch, provision, noclist, proto, and SLCSP
+
+### Managing Software Engineer
 - Assignment set: slow_widgets, dog_license, and 2 technical assignments (4 total)
 - Start by picking two from hhbuilder, fetch, provision, noclist, proto, and SLCSP
 
