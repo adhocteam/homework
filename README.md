@@ -1,8 +1,7 @@
 Ad Hoc homework problems
 ========================
 
-Each directory contains a homework problem, seven in total. Please complete one problem to start off, we will ask for more if your first submission passes blinded review. Make sure to read the README in each directory,
-it will give you important information on completing each problem.
+Each directory in the [Ad Hoc Homework GitHub repository](https://github.com/adhocteam/homework) contains a different homework problem, seven in total. Please complete one problem to start off, we will ask for more if your first submission passes blinded review. Make sure to read the README in each directory, it will give you important information on completing each problem.
 
 This is an open-book test, so Google away, but please don't copy your work from pre-existing solutions you may find or ask
 others to help you complete the exercises. Solutions should be able to be run on a UNIX command line (Linux/Mac). We're quite familiar with Go, Ruby, Javascript, and Python, but if your submission is in some other language (which is OK), please let us know how we can set up our environment to run your code.
@@ -43,8 +42,7 @@ Getting help
 ------------
 
 If you get stuck, have a question, or want to clarify any aspect of the
-homework, you can contact members of our development team by
-joining our [public Slack channel.](https://public-slack.adhoc.team)
+homework, use the chat button in the lower right of the [Ad Hoc Homework site](https://homework.adhoc.team) to contact us.
 
 We think a sign of a good developer is one who asks questions sooner, rather
 than later. We are happy to help guide you to the right solution.
