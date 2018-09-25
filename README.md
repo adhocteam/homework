@@ -42,7 +42,7 @@ Getting help
 ------------
 
 If you get stuck, have a question, or want to clarify any aspect of the
-homework, use the chat button in the lower right to contact us.
+homework, use the chat button in the lower right of the [Ad Hoc Homework site](https://homework.adhoc.team) to contact us.
 
 We think a sign of a good developer is one who asks questions sooner, rather
 than later. We are happy to help guide you to the right solution.
