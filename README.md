@@ -9,17 +9,17 @@ others to help you complete the exercises. Solutions should be able to be run on
 Which problems should I start with?
 ------------
 
-Well, that depends on the position you're applying for! Here are some suggestions:
+Well, that depends on the position you're applying for! Here are the assignment sets for each position:
 
-### Front-end Developer
+### Front-end Engineer
 - Assignment set: hhbuilder and fetch (2 total)
 - Start with [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [fetch](https://github.com/adhocteam/homework/tree/master/fetch)
 
-### Software Engineer / Full-Stack Engineer
+### Full-Stack Engineer
 - Assignment set: hhbuilder, fetch, noclist, proto, SLCSP (3 total)
 - Start with [hhbuilder](https://github.com/adhocteam/homework/tree/master/hhbuilder) or [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp)
 
-### Backend Developer
+### Back-end Engineer
 - Assignment set: fetch, noclist, proto, SLCSP (2 total)
 - Start with [slcsp](https://github.com/adhocteam/homework/tree/master/slcsp) or [proto](https://github.com/adhocteam/homework/tree/master/proto)
 
