@@ -42,7 +42,7 @@ Getting help
 ------------
 
 If you get stuck, have a question, or want to clarify any aspect of the
-homework, use the chat button in the lower right of the [Ad Hoc Homework site](https://homework.adhoc.team) to contact us.
+homework, use the chat button in the lower right to contact us.
 
 We think a sign of a good developer is one who asks questions sooner, rather
 than later. We are happy to help guide you to the right solution.
@@ -80,3 +80,8 @@ are simple, elegant, and efficient. Submit a solution as if you were giving it
 to a colleague for code review.
 
 Good luck! We look forward to reviewing your submission.
+
+Retired assignments
+-------------------
+
+Check the `archive` directory for annotated versions (including solutions) of our retired assignments - we hope these will help give you an idea of what we're looking for in submissions!

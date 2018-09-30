@@ -43,8 +43,8 @@ The BADSEC server will run on port 8888. You can start it with:
 You should see `Listening on http://0.0.0.0:8888`.
 
 If you have any trouble getting the server running, or any other questions
-about this homework, please join the [public slack
-channel](https://public-slack.adhoc.team/) and ask us.
+about this homework, please [reach out to us](https://homework.adhoc.team/)
+and ask.
 
 ## Handling Errors
 
@@ -78,8 +78,8 @@ To get the token, the first thing your application should do is call `/auth`.
 This endpoint will return a token you can use to generate the checksum for the
 subsequent user list call.
 
-If you have any questions about authenticating, please [log into the
-#public channel](https://public-slack.adhoc.team/) in our slack and ask!
+If you have any questions about authenticating, please [use our question
+box](https://homework.adhoc.team/) to ask them!
 
 ### Checksum
 

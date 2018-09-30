@@ -1,7 +1,7 @@
 Write a checksum middleware
 ===========================
 
-# DEPRECATED - We are no longer accepting this assignment and will be publishing the solution by the end of September
+# DEPRECATED - We are no longer accepting this assignment! Check middleware.go for an annotated version of our reference solution for this problem!
 
 You have been asked to add a checksum to all outgoing HTTP responses, as
 a custom HTTP header.
